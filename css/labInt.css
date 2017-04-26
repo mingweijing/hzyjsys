@@ -1,0 +1,254 @@
+/*
+* @Author: JMW
+* @Date:   2017-03-27 15:28:24
+* @Last Modified by:   JMW
+* @Last Modified time: 2017-04-26 13:54:24
+*/
+
+/* 实验室简介 */
+.labInt{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background:#fff;
+}
+.bgc{
+	width: 1200px;
+	margin:0 auto;
+	position: relative;
+}
+.labInt-con,.structure-con,.culture-con,.committee-con,.leader-con,.labView-con,.mission-con{
+	width: 920px;
+	height: 554px;
+	padding-top: 50px;
+	margin:0 auto;
+	padding-left: 280px;
+}
+.lab-nav,.stru-nav,.commi-nav,
+.leader-nav,.mission-nav,.labView-nav,
+.culture-nav{
+	width: 100%;
+	height: 48px;
+	position: relative;
+}
+.labInt .lab-nav img.title,.stru-nav img.title,.commi-nav img.title,
+.leader-nav img.title,.mission-nav img.title,.labView-nav img.title,
+.culture-nav img.title{
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+.labInt .lab-nav img.xiushi,.stru-nav img.xiushi,.commi-nav img.xiushi,
+.leader-nav img.xiushi,.mission-nav img.xiushi,.labView-nav img.xiushi,
+.culture-nav img.xiushi{
+	position: absolute;
+	right: 200px;
+	top: 10px;
+}
+.labInt p{
+	text-indent: 2em;
+	font-size: 16px;
+	color:#4f4d4d;
+	width: 880px;
+	line-height: 55px;
+	letter-spacing: 1px;
+	margin:20px auto;
+}
+.labInt .office{
+	width: 796px;
+	margin:0 auto;
+}
+
+/* 组织架构 */
+.structure{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background:#f2f2f2;
+}
+.structure .structure-con{
+	height: 724px;
+	position: relative;
+}
+.structure .stru-con{
+	width: 744px;
+	height: 584px;
+	position: absolute;
+	right:140px;
+	top: 140px;
+}
+.structure .stru-con .stru-bg{
+	width: 604px;
+	height: 584px;
+	background: url(../images/structure.png) no-repeat;
+	position: absolute;
+	left: 140px;
+}
+.structure .stru-con ul{
+	width: 744px;
+	height: 584px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.structure .stru-con ul li{
+	font-size: 20px;
+	color:#5f5f5f;
+	margin:7px 0 0 10px;
+}
+.structure .stru-con ul li div{
+	display: inline-block;
+	font-size:20px;
+}
+.structure .stru-con ul li a{
+	font-size:20px;
+	cursor: text;
+}
+.structure .stru-con ul li a:hover{
+	color:#ff5a00;
+}
+.structure .stru-con ul li a span{
+	font-size:20px;
+	color:#fff;
+}
+.structure .stru-con ul li.yanjiu{
+	margin-top: 18px;
+}
+.structure .stru-con ul li.yanjiu div{
+	display: inline-block;
+	width: 20px;
+	line-height: 32px;
+	font-size: 20px;
+	color:#fff;
+	float: left;
+}
+.structure .stru-con ul li.xiangmu{
+	margin-top: 76px;
+}
+.structure .stru-con ul li.xiangmu div{
+	float: right;
+}
+
+/* 学术委员会 */
+.committee{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background:#fff;
+}
+.committee .committee-con{
+	height: 500px;
+}
+
+/* 主要成员 */
+.leader{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background:#f2f2f2;
+}
+.leader .leader-con{
+	height: 850px;
+}
+.leader #leaderUl{
+	width: 880px;
+	height: 712px;
+	margin:50px auto 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.leader #leaderUl li{
+	width: 880px;
+	height: 242px;
+	margin-bottom: 2px;
+}
+.leader #leaderUl li img{
+	border-radius:165px;
+	float: left;
+}
+.leader #leaderUl li img:hover{
+	-webkit-box-shadow: 0px 14px 25px -2px rgba(0, 0, 0, 0.14);
+  	-moz-box-shadow: 0px 14px 25px -2px rgba(0, 0, 0, 0.14);
+  	box-shadow: 0px 14px 25px -2px rgba(0, 0, 0, 0.14);
+  	margin-top: -2px;
+}
+.leader #leaderUl li div{
+	width: 680px;
+	height: 242px;
+	border-bottom: 1px solid #d6d6d6;
+	float: right;
+	margin-right: 16px;
+}
+.leader #leaderUl li div.last{
+	border-bottom: none;
+}
+.leader #leaderUl li div a.name{
+	font-size:22px;
+	width: 66px;
+	border-bottom: 2px solid #ffc000;
+	margin-top: 16px;
+	display: inline-block;
+}
+.leader #leaderUl li div a.name:hover{
+	color:#ff5a00;
+	cursor: pointer;
+}
+.leader #leaderUl li div p{
+	margin-top:32px;
+	text-indent: 2em;
+	line-height: 24px;
+	color:#9e9e9e;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+.leader #leaderUl li div p a{
+	color:#9bb382;
+	font-size: 12px;
+}
+/* 使命宗旨 */
+.mission{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background:#fff;
+}
+.mission .mission-con{
+	height: 350px;
+}
+.mission div.mis-con{
+	width: 880px;
+	margin:50px auto;
+}
+.mission div.mis-con p{
+	font-size: 16px;
+	line-height: 56px;
+	color:#464646;
+}
+.mission div.mis-con p span{
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #000;
+	margin: 0 10px 2px 0;
+}
+
+/* 学术渊源 */
+.culture{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background:#f2f2f2;
+}
+.culture .culture-con{
+	height: 734px;
+}
+.culture iframe{
+	width: 880px;
+	height: 600px;
+	margin:50px 0 0 20px;
+}
+
+/* 实验室风貌 */
+.labView{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background: #fff;
+}
+.labView .labView-con{
+	height: 500px;
+} 

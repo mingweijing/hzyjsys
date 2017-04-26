@@ -1,0 +1,52 @@
+/*
+* @Author: JMW
+* @Date:   2017-03-27 15:28:24
+* @Last Modified by:   JMW
+* @Last Modified time: 2017-04-25 17:41:46
+*/
+/* 国际交流*/
+.international{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background:#fff;
+}
+.bgc{
+	width: 1200px;
+	margin:0 auto;
+	position: relative;
+}
+.international-con,.domestic-con,.goverCooper-con{
+	width: 920px;
+	height: 500px;
+	padding-top: 50px;
+	margin:0 auto;
+	padding-left: 280px;
+}
+.international-nav,.domestic-nav,.goverCooper-nav{
+	width: 100%;
+	height: 48px;
+	position: relative;
+}
+.international .international-nav img.title,.domestic-nav img.title,.goverCooper-nav img.title{
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+.international .international-nav img.xiushi,.domestic-nav img.xiushi,.goverCooper-nav img.xiushi{
+	position: absolute;
+	right: 200px;
+	top: 10px;
+}
+
+/* 国内交流 */
+.domestic{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background: #f5f5f5;
+}
+/* 政府合作 */
+.goverCooper{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background: #fff;
+}

@@ -1,0 +1,109 @@
+/*
+* @Author: JMW
+* @Date:   2017-03-27 15:28:24
+* @Last Modified by:   JMW
+* @Last Modified time: 2017-04-25 11:53:31
+*/
+
+/* 工作团队*/
+.shuoming{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background:#fff;
+}
+.talentInt{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background:#f5f5f5;
+}
+.bgc{
+	width: 1200px;
+	margin:0 auto;
+	position: relative;
+}
+.recruit{
+	margin:50px;
+}
+.recruit h1{
+	font-size: 22px;
+    color: #5495b6;
+    line-height: 70px;
+}
+.recruit h3{
+	font-weight: bold;
+    line-height: 50px;
+}
+.recruit h3 span{
+	font-weight: normal;
+	margin:0;
+}
+.recruit span{
+	margin-left:80px;
+}
+.recruit span a{
+	text-decoration: underline;
+	color:red;
+}
+.recruit p{
+	line-height: 30px;
+	text-indent: 2em;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.recruit p strong{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.recruit em{
+	font-size: 14px;
+	line-height: 30px;
+}
+.recruit ul li{
+	font-size: 14px;
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 30px;
+}
+.last{
+	margin-bottom:0;
+	padding-bottom:50px;
+}
+.talentInt-con,.talentImpor-con,.zhaopin-con,.shuoming-con{
+	width: 920px;
+	padding-top: 50px;
+	margin:0 auto;
+	padding-left: 280px;
+}
+.talentInt-nav,.talentImpor-nav,.zhaopin-nav,.shuoming-nav{
+	width: 100%;
+	height: 48px;
+	position: relative;
+}
+.talentInt .talentInt-nav img.title,.talentImpor-nav img.title,
+.zhaopin-nav img.title,.shuoming-nav img.title{
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+.talentInt .talentInt-nav img.xiushi,.talentImpor-nav img.xiushi,
+.zhaopin-nav img.xiushi,.shuoming-nav img.xiushi{
+	position: absolute;
+	right: 200px;
+	top: 10px;
+}
+
+/* 人才引进 */
+.talentImpor{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background: #fff;
+}
+/* 招贤纳士 */
+.zhaopin{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background: #f5f5f5;
+}
+.zhaopin .zhaopin-con{
+	height: 500px;
+}

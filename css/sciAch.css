@@ -1,0 +1,156 @@
+/*
+* @Author: JMW
+* @Date:   2017-03-27 15:28:24
+* @Last Modified by:   JMW
+* @Last Modified time: 2017-04-25 11:49:48
+*/
+/* 新闻动态  通知公告*/
+.represent{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background:#fff;
+}
+.bgc{
+	width: 1200px;
+	margin:0 auto;
+	position: relative;
+}
+.represent-con,.topic-con,.activity-con{
+	width: 920px;
+	height: 940px;
+	padding-top: 50px;
+	margin:0 auto;
+	padding-left: 280px;
+}
+.represent-nav,.topic-nav,.activity-nav{
+	width: 100%;
+	height: 48px;
+	position: relative;
+}
+.represent .represent-nav img.title,.topic-nav img.title,.activity-nav img.title{
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+.represent .represent-nav img.xiushi,.topic-nav img.xiushi,.activity-nav img.xiushi{
+	position: absolute;
+	right: 200px;
+	top: 10px;
+}
+.represent-con div.hzgx,.represent-con div.hyywz,.represent-con div.wzgf{
+	position: absolute;
+	left: 330px;
+	top: 114px;
+}
+.represent .represent-con div.hzgx span,.represent .represent-con div.hyywz span,.represent-con div.wzgf span{
+	font-size: 22px;
+}
+.represent .represent-con div.hzgx ul,.represent .represent-con div.hyywz ul,.represent .represent-con div.wzgf ul{
+	margin-top: 40px;
+}
+.represent .represent-con div.hzgx ul li,.represent .represent-con div.hyywz ul li,.represent .represent-con div.wzgf ul li{
+	width: 236px;
+	height: 340px;
+	float: left;
+	margin:0 50px 70px 0;
+	box-shadow: 10px 10px #ccc;
+	border:1px solid #ddd;
+}
+.represent .represent-con div.hyywz{
+	top:150px;
+}
+.represent .represent-con div.hzgx{
+	top:1060px;
+}
+.represent .represent-con div.wzgf{
+	top:1560px;
+}
+.represent .represent-con ul.paper{
+	top:2060px;
+}
+/* 研究项目 */
+.topic{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	height: 680px;
+	background: #f5f5f5;
+}
+.topic .topic-con{
+	height: 680px;
+}
+.topic .topic-con .project{
+	width: 1000px;
+	position: absolute;
+	top: 90px;
+	left: 330px;
+}
+.topic .topic-con .project .projectUl{
+	margin-top: 50px;
+}
+.topic .topic-con .project .projectUl .projectTitle{
+	margin-bottom:50px;
+}
+.topic .topic-con .project .projectUl .projectTitle h2{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.topic .topic-con .project .projectUl .projectTitle ul{
+	width: 1000px;
+	overflow: hidden;
+	margin-top: 46px;
+}
+.topic .topic-con .project .projectUl .projectTitle ul li{
+	list-style-type: disc;
+	font-size: 14px;
+	line-height: 28px;
+	margin-left: 24px;
+	float: left;
+	width: 400px;
+	margin-right: 40px;
+	color:#797070;
+}
+/* 学术论文 */
+.activity{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background: #fff;
+}
+.activity .activity-con{
+	height: 330px;
+}
+.activity .activity-con ul,.represent-con ul.paper{
+	width: 800px;
+	top:150px;
+	left: 330px;
+	position: absolute;
+}
+.activity .activity-con ul,.represent .represent-con ul.paper h2{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.activity .activity-con ul li,.represent .represent-con ul.paper li{
+	height: 226px;
+}
+.activity .activity-con ul li a.title,.represent .represent-con ul.paper li a.title{
+	font-size: 18px;
+	line-height: 48px;
+}
+.activity .activity-con ul li a.title:hover,.represent .represent-con ul.paper li a.title:hover{
+	color:#ff5a00;
+}
+.activity .activity-con ul li span,.represent .represent-con ul.paper li span{
+	color:#b29999;
+	font-style: italic;
+	font-size:12px;
+}
+.activity .activity-con ul li p,.represent .represent-con ul.paper li p{
+	color:#555;
+	margin-top: 15px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+.activity .activity-con ul li p a,.represent .represent-con ul.paper li p a{
+	color:#57b382;
+	font-size: 14px;
+}

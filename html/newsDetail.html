@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>汉字研究与现代应用实验室</title>
+		<meta charset="utf-8"/>
+	    <meta name="format-detection" content="telephone=no"/>
+	    <meta name="renderer" content="webkit"/>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	    <meta name="viewport" content="width=1440"/>
+	    <meta name="keywords" content="汉字研究,交叉学科,实验室,汉字研究与现代应用交叉学科实验室"/>
+	    <meta name="description" content="汉字研究与现代应用交叉学科实验室是北京师范大学学科交叉重点建设项目，该实验室依托于具有深厚历史渊源、坚实学术基础的北师范大学文学院和教学、研究实力雄厚的北京师范大学信息科学与技术学院，是集学术科研与社会服务于一体、传统人文学科与现代信息科学相交叉的高层次科研和服务机构。"/>
+	    <link rel="stylesheet" href="../css/base.css"/>
+	    <link rel="stylesheet" href="../css/common.css"/>
+	    <link rel="stylesheet" href="../css/newsDetail.css"/>
+	    <script src="../js/jquery.min.js"></script>
+	    <script src="../js/common.js"></script>
+	    <script src="../js/jquery.lazyload.min.js"></script>
+	    <script>
+		    $(function(){
+			    $("img.lazy").lazyload({
+			    	threshold : 200,
+			    	placeholder:"../images/loading.gif",
+			    	effect : "fadeIn"
+			    });
+			    $("#pwdSpan").hide();
+			    //左侧导航栏跟随
+			    var explorer =navigator.userAgent;
+			    if (explorer.indexOf("MSIE 9.0") >= 0||explorer.indexOf("rv:11.0")>=0||explorer.indexOf("MSIE 10.0") >= 0) {
+			        var l=$(".left-nav").offset().left;
+			        $(window).scroll( function() {
+			            var m =$(document).scrollTop();
+			            if(m>120&&$(window).width()>=1200){
+			                $(".left-nav").css({"position":"fixed","top":"50px","left":l+"px","marginLeft":"0"});
+			            }else if(m>120&&$(window).width()<1200&&l<=0){
+			                $(".left-nav").css({"position":"fixed","top":"50px","left":"0"});
+			            }else{
+			                $(".left-nav").css({"position":"absolute","top":"50px","left":"0"});
+			            }
+			        });
+			    }else{
+			        $(window).scroll( function() {
+			            var m =$(document).scrollTop();
+			            if(m>120){
+			                $(".left-nav").css("top",(m-80)+"px");
+			            }else{
+			                $(".left-nav").css("top","50px");
+			            }
+			        });
+			    }
+			});
+	    </script>
+	    <!--[if lte IE 9]>
+	        <script src="../js/ie9.js"></script>
+	    <![endif]-->
+	    <!--[if lte IE 8]>
+            <style>
+                #header .search input{
+                    line-height: 23px;
+                }
+                .mask0{
+                    display:block;
+                }
+            </style>
+        <![endif]-->
+    </head>
+    <body>
+    	<!-- 头部 -->
+    	<div id="header">
+    		<div class="wrapper">
+    			<a class="logo" title="点击可切换logo">
+	                <img src="../images/logo2.png" alt=""/>
+	            </a>
+	            <img src="../images/logo.png" height="64" width="431" alt="" style="margin-top:20px;float:left;"/>
+	            <div class="search">
+	            	<input id="pwd" type="text" placeholder="建设中..."/>
+                    <input id="pwdSpan" type="text" placeholder="建设中...">
+	            	<img src="../images/search.png" height="25" width="25" alt=""/>
+	            </div>
+    		</div>
+    	</div>
+    	<!-- 头部end -->
+    	<!-- 导航条 -->
+    	<div id="nav-bar">
+    		<ul class="nav">
+	            <li><a href="../index.html" class="a1">首页</a></li>
+	            <li><a href="labInt.html" class="a1">实验室概况</a>
+	            	<dl>
+	                    <dd><a href="labInt.html#labInt" class="a2">实验室简介</a></dd>
+	                    <dd><a href="labInt.html#structure" class="a2">组织架构</a></dd>
+	                    <dd><a href="labInt.html#committee" class="a2">学术委员会</a></dd>
+	                    <dd><a href="labInt.html#leader" class="a2">主要成员</a></dd>
+	                    <dd><a href="labInt.html#mission" class="a2">使命宗旨</a></dd>
+	                    <dd><a href="labInt.html#culture" class="a2">学术渊源</a></dd>
+	                    <dd><a href="labInt.html#labView" class="a2">实验室风貌</a></dd>
+	                </dl>
+	            </li>
+	            <li><a href="news.html" class="a1">资讯中心</a>
+	            	<dl>
+	                    <dd><a href="news.html#hotNews" class="a2">新闻动态</a></dd>
+	                    <dd><a href="news.html#notice" class="a2">通知公告</a></dd>
+	                </dl>
+	            </li>
+	            <li><a href="sciAch.html" class="a1">科学研究</a>
+	            	<dl>
+	                    <dd><a href="sciAch.html#represent" class="a2">专著论文</a></dd>
+	                    <dd><a href="sciAch.html#topic" class="a2">项目课题</a></dd>
+	                    <dd><a href="sciAch.html#activity" class="a2">学术活动</a></dd>
+	                </dl>
+	            </li>
+	            <li><a href="cooperCommu.html" class="a1">合作交流</a>
+	            	<dl>
+	                    <dd><a href="cooperCommu.html#international" class="a2">国际交流</a></dd> 
+	                    <dd><a href="cooperCommu.html#domestic" class="a2">国内交流</a></dd> 
+	                    <dd><a href="cooperCommu.html#goverCooper" class="a2">政府合作</a></dd>                
+	                </dl>
+	            </li>
+	            <li><a href="product.html" class="a1">成果转化</a>
+	            </li>
+	            <li><a href="talent.html" class="a1">招贤纳士</a>
+	            	<dl>
+	                    <dd><a href="talent.html#talentInt" class="a2">科研人员</a></dd>  
+	                    <dd><a href="talent.html#talentImpor" class="a2">技术人员</a></dd> 
+	                    <dd><a href="talent.html#zhaopin" class="a2">实习生</a></dd>  
+	                </dl>
+	            </li>
+	            <li><a href="contactUs.html" class="a1">联系我们</a>
+	            	<dl>
+	                    <dd><a href="contactUs.html#telephone" class="a2">联系方式</a></dd>               
+	                </dl>
+	            </li>    
+	        </ul>
+	        <div class="mask0"></div>
+    	</div>	
+    	<!-- 导航条end -->
+    	<!-- 内容 -->
+    	<div class="content">
+			<!-- 新闻动态 -->
+			<div class="hotNews" id="hotNews">
+				<div class="bgc">
+					<!-- 左侧导航 -->
+					<ul class="left-nav">
+						<li><a href="newsDetail.html#hotNews">新闻动态</a></li>
+						<li><a href="newsDetail.html#notice">通知公告</a></li>
+					</ul>
+					<!-- 左侧导航end -->
+					<div class="hotNews-con">
+						<div class="hotNews-nav">
+							<img src="../images/news.png" height="48" width="120" alt="" class="title"/>
+							<img src="../images/school.png" height="24" width="452" alt="" class="xiushi"/>
+						</div>
+						<div class="news1" id="news1">
+							<div class="news1-con">
+								<h1>美国塔夫茨大学代表团来我院进行合作洽谈</h1>
+								<h4>发布时间：2017-03-22</h4>
+								<p>3月21日，美国塔夫茨大学（Tufts University）代表团一行七人来到文学院访问，代表团成员包括塔夫茨大学文理学院院长James Glaser，国际项目主任Sheila Bayne，中文项目主任Xueping Zhong，以及该校孔子学院外方院长王命全等。访问期间，代表团与我院就双方未来合作进行深入会谈。我院院长过常宝教授及三位教师代表出席了会议。</p>
+								<p>会上，双方就联合培养、学术交流以及合作科研等内容进行了详细探讨。其中，双方在塔夫茨大学学生来我院短期学习的项目上达成高度共识，并针对课程目标和设置进行了细节商谈。双方均希望能够早日开展双向交流与合作。</p>
+								<p>塔夫茨大学（Tufts University）是美国著名大学，也是波士顿仅次于哈佛大学和麻省理工学院的波士顿五大名校（哈佛大学、麻省理工学院、塔夫茨大学、波士顿学院，布兰迪斯大学）之一，也是25所“新常春藤”成员之一。我院从2016年开始就已在该校开展暑期学生交流活动。</p>
+								<div>
+									<img class="lazy" data-original="http://wxy.bnu.edu.cn/images/content/2017-03/20170322084657350166.jpg" alt="" width="700" height="450"/>
+								</div>	
+							</div>	
+						</div>
+						<div class="news1" id="news2">
+							<div class="news1-con">
+								<h1>文学院行政党支部服务岗系列“见面会”之本科教务管理专场顺利举行</h1>
+								<h4>发布时间：2016-12-26</h4>
+								<p>2016年12月23日下午，本科教务管理岗面对面活动顺利举行。文学院行政岗老师、部分师生代表参加了交流会。活动由支部书记马琼老师主持。</p>
+								<p>本期主讲人陶群英老师和李敏老师首先介绍各自负责的本科生教务管理模块内容，之后着重就本科生日常管理、留学生日常管理等工作的特点及学校在本科生、留学生教务管理方面的政策、制度做了说明，随后就本科生学籍管理、低年级本科生选课、留学生管理等具体问题与大家进行了互动交流。</p>
+								<p>行政支部该系列活动固定每周五下午16点在5037举行，将通过财务、外事、本研教务、人事科研、工会工作、学生工作等不同专题板块，不断增强行政人员的责任感和服务意识，更好地服务学院师生。</p>
+								<p>下期将邀请科研与人事管理办公室方红珊老师和赵锐老师做客面对面活动。</p>	
+							</div>	
+						</div>
+						<div class="news1" id="news3">
+							<div class="news1-con">
+								<h1>文学院召开离退休教师辞旧迎新座谈会</h1>
+								<h4>发布时间：2017-01-05</h4>
+								<p>值此岁末之际，2016年12月26日上午，文学院召开了离退休教师辞旧迎新座谈会，40余位离退休教师参会，我院院领导班子成员和离退休工作小组成员参加了座谈。在座谈会上，王立军书记和过常宝院长介绍了学院一年来的学科建设、人才培养、国际交流等方面的发展情况，感谢离退休教师多年来对学院做出的巨大贡献，希望老师们保重身体、继续为学院的建设与发展建言献策，并表示学院会竭尽所能为离退休教师做好服务工作。离退休教师们互致问候，共贺新春，同时感谢学院的关心。随后，离退休教师参观了位于主楼C区的文学院新办公区并合影留念。</p>	
+								<div><img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2017-01/20170105082803006215.jpg" alt=""/></div>
+							</div>	
+						</div>
+						<div class="news1" id="news4">
+							<div class="news1-con">
+								<h1>英国皇家学术院院士白馥兰教授获授北京师范大学荣誉教授称号</h1>
+								<h4>发布时间： 2016-12-19</h4>
+								<div>
+									<img class="lazy" width="700" height="450" data-original="http://pkujccs.cn/upload/1482050270103.jpg" alt=""/>
+									<h3>北师大周作宇副校长授予白馥兰教授北师大荣誉教授职衔</h3>
+								</div>
+								<p>白馥兰教授（Professor Francesca Bray）是现代国际汉学界、社会人类学界和科技史学界的顶尖学者，英国剑桥大学李约瑟研究所成员，英国皇家学院院士，国际科学史学会主席。白教授与北师大的联系与中国民俗学之父钟敬文教授主编《民俗学概论》有关，书中《第八章 民间科技》吸收了李约瑟《中国科技史》的一些意见。近年白教授多次到我校访问，自2016年起承担了“跨文化学研究生国际课程班”的人类学与科技史课程。2016年11月11日，北师大授予白教授荣誉教授职衔仪式在学校会议室A414举行，周作宇副校长代表学校向白教授授予荣誉教授证书，并发表讲话，他说，白馥兰教授学术背景深厚，学术成就卓越，其代表作之一，李约瑟《中国科技史》第六卷第二部分《农业》一书，获1985年法国国家文学历史典籍研究布迪厄奖最高奖（Prix Bordin）。其专著《技术与性别：晚期帝制中国的权力经纬》获1999年国际科技史学会德克斯特奖最高奖（Dexter Prize）。其专著《世界史中的技术》获2008年萨利·哈金奖最高奖（Sally Hacking Prize )。她自青年时代起深受李约瑟学术思想的影响，热爱中国优秀传统文化，对华友好。她大力推进中国历代国家治理与地方多元文化并举的独特历史文明，阐释中国农业技术文化的优势，提出了许多学术前沿问题，增加了欧美学术界对中国历史文明的认识，促使中国传统优秀文化元素产生广泛的世界影响。希望白教授能与我校保持长期学术联系，协助我校建设世界一流大学，并继续为中国重点高校科技史学、社会人类学和跨文化汉学的高级人才培养做出新贡献。</p>
+								<p>白教授致答谢词，她表示，我们的合作是一个长期的合作，具有特殊的重要意义，因为这能让我所代表的西方高校和研究所里的学者认真审视我们国际同行的观点。我非常希望我的其他同行也能来分享这一教育。我希望我们能有更多合作，去创造更多这样的机会。</p>	
+								<p>北师大民俗典籍文字研究中心主任李国英教授、北师大中国民间文化研究所所长董晓萍教授与会，跨文化研究生国际课程班的师生近20人参加了仪式。</p>
+
+								<div>
+									<img class="lazy" width="700" height="450" data-original="http://pkujccs.cn/upload/1482050357041.jpg" alt=""/>
+									<h3>周作宇副校长与白馥兰教授和董晓萍教授亲切交谈</h3>
+								</div>
+							</div>	
+						</div>
+						<div class="news1" id="news5">
+							<div class="news1-con">
+								<h1>加拿大滑铁卢大学李彦副教授来我院讲学</h1>
+								<h4>发布时间：2016-12-14</h4>
+								<p>2016年12月15日，加拿大滑铁卢大学文化及语言研究系中文教研室主任李彦副教授，在文学院报告厅进行了一场题为《让中国文学进入海外读者视野—双语创作与翻译的实践和思考》的讲座，讲座围绕“作为一个向外国人传播中华文化的实践者，如何才能让他们更好接受中国文化”的问题，结合李彦教授自己的实践与思考作出阐释。讲座内容深入浅出，丰富精彩，李教授与到场同学进行了积极的互动，整个讲座获得大家的一致好评。</p>
+								<div>
+									<img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2016-12/20161216172316326262.jpg" alt=""/>
+								</div>
+							</div>
+						</div>
+						<div class="news1" id="news6">
+							<div class="news1-con">
+								<h1>文学院追思刘锡庆教授治学为人风范</h1>
+								<h4>发布时间：2017-03-24</h4>
+								<p>3月18日上午，著名学者、文学评论家、文学院中国现当代文学专业博士生导师刘锡庆教授追思会在京师大厦第六会议室举行。文学院院长过常宝教授、文学院分党委方红珊副书记、刘锡庆教授的亲属，以及文学院教师代表、刘锡庆教授的生前好友、弟子等参加了追思会。追思会由文学院刘勇教授主持。</p>
+								<p>追思会上，文学院教师代表、刘锡庆教授的生前好友、弟子纷纷深情地回忆与刘锡庆教授交往的点点滴滴。</p>
+								<p>文学院院长过常宝教授对刘锡庆教授为文学院所做的贡献给予了高度评价。盛赞其缔结之学术经久不休，首植之桃李海内流芳。尤其是在写作学和散文研究领域建树颇丰。刘锡庆教授博学儒雅、诲人不倦、性情耿敬，无愧为“学为人师、行为世范”的楷模。</p>
+								<p>中国人民大学文学院孙郁教授对刘锡庆教授在学术上的卓越贡献给予了高度评价，认为刘锡庆教授在八九十年代呼唤“艺术散文”，呼唤“有人性温度的文章出现”，对克服泛意识形态和泛道德化起到关键作用。刘锡庆教授的学术著作和他个人一样温和包容，对不同的观点能够有所理解，又能够坚持己见，用他这种人格魅力培养一代又一代的学生。</p>
+								<p>中国社会科学院文学研究所孟繁华研究员回忆了刘锡庆教授当年讲授写作的盛况，他撰写的写作教材印刷几百万册，他主编的《中国当代文学史》等著作影响巨大，在写作学和当代文学等领域具有开拓性贡献。在生活中，刘锡庆教授为人幽默平和，确有长者风范，是学生们的良师益友。</p>
+								<p>北师大文学院任洪渊教授以“他像质朴散文一样的生活”为题写下了自己与刘锡庆教授交往的点点滴滴。北师大中文系当代文学教研室成立之初，刘锡庆教授积极为学科引进诗人与作家，包括任洪渊本人。当下，诗人、作家纷纷进入高校教书育人，刘锡庆教授当年的举动无疑是一个先行者。</p>
+								<p>北师大文学院程正民教授回忆了与刘锡庆教授共同参加劳动、写作的往事，认为刘锡庆教授工作认真敬业，是一个踏实、不爱张扬、不爱炒作的人，是一个有见解、有作为、有造诣的学者，正如鲁迅所说“实地劳作，不尚叫嚣”。从写作学，到当代文学，再到散文研究，刘锡庆教授眼光超前，挑起了学科发展的重担，并做出了巨大贡献。</p>
+								<p>大家一致认为，刘锡庆教授治学严谨，正直善良，随和低调，在学术上开拓进取，眼光独到；在对待弟子上，用心育人，为良师益友；在生活中，随和踏实，是个有情怀的人。</p>
+								<p>最后，文学院中国现当代文学研究所所长李怡教授介绍了编辑刘锡庆教授纪念文集的相关事宜，文集拟分三个部分，一是精选刘锡庆教授相关学术领域代表性论文，二是辑录关于对刘锡庆教授学术成就的评述、研究，三是汇集刘锡庆教授的同事、弟子、好友的回忆文章等。以此进一步表达同事、亲友、弟子对刘锡庆教授的深切缅怀。</p>
+								<div>
+									<img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2017-03/20170324100210860251.jpg" alt=""/>
+								</div>
+							</div>
+						</div>
+						<div class="news1" id="news7">
+							<div class="news1-con">
+								<h1>文学院全院教职工大会暨第三届教职工代表扩大会议顺利举行</h1>
+								<h4>发布时间：2017-01-09</h4>
+								<p>2017年1月9日上午，文学院全院教职工大会暨第三届教代会扩大会议在C5049召开。文学院教职工80余人参加会议。校党委组织部特派督察员、体育学院分党委书记刘林出席会议。会议由分党委副书记方红珊主持。</p>
+								<p> 大会第一阶段为文学院党政领导年终述职。各位领导围绕主责工作进行了全面回顾。过常宝院长介绍了文学院在2016年的整体发展状况，围绕学科评估、学科建设、教师队伍建设、教学改革等方面进行了重点汇报；王立军书记介绍了过去一年文学院分党委建设情况、学院2016年财务状况以及学院所取得的成绩；张清华副院长围绕研究生人才培养、教学管理、科研项目等进行了汇报，并对国际写作中心的工作进行了回顾；马东瑶副院长就本科生教学管理、人才培养以及本科生教学基本状态数据库建设等工作进行了重点介绍；方红珊副书记围绕教师党建以及学院人事工作做了汇报；周云磊副书记就全院学生工作做了全面汇报。各位领导在汇报最后，均对全院老师的鼎力支持表示衷心感谢，并且希望老师们在2017年继续关心、支持学院的各项工作。</p>	
+								<div><img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2017-01/20170109212148981836.jpg" alt=""/></div>
+								<div><img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2017-01/20170109212225462092.jpg" alt=""/></div>
+								<div><img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2017-01/20170109212252724163.jpg" alt=""/></div>
+								<div><img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2017-01/20170109212317544256.jpg" alt=""/></div>
+								<div><img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2017-01/20170109212348679393.jpg" alt=""/></div>
+								<div><img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2017-01/20170109212414424414.jpg" alt=""/></div>
+								<p> 之后进入大会第二阶段，文学院第三届教代会扩大会议。院工会副主席赖彦斌代周晓文主席做了2016年文学院工会工作汇报，主要围绕工作思路、创新举措、特色活动展开，全面介绍了文学院工会一年来工作成效。文学院工会结合学院特色，创新开展各类工会活动，丰富教职工业余生活，同时积极为教师参与学院、学校的建设搭建桥梁，一心一意为教职工办好事办实事，2016年文学院工会再度获评北师大“模范教职工之家”称号。</p>
+								<div><img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2017-01/20170109212443325565.jpg" alt=""/></div>
+								<p> 接下来，文学院教代会提案小组副组长赖彦斌代李晋霞组长做了文学院教代会提案工作报告。他首先就2016年文学院第二届教代会征集的提案进行了说明。这些提案涉及院务公开、研究生弹性学制、薪酬改革、行政人员考核改革、核心期刊建设等10余项。提案工作组根据情况，分别向学校、学院有关部门进行了反馈，全部得到回复。之后报告了2017年文学院第三届教代会征集提案情况，今年共征集到涉及办公环境建设、教学管理改革、教师待遇等三大类10余项提案。学院提案工作组将继续积极向相关部门反馈，力争早日得到回复并解决相关问题。</p>
+								<p>文学院全院教职工大会暨第三届教职工代表扩大会议在掌声中圆满结束。展望未来，我们将以更加高昂的姿态走在建设“双一流”的道路上。</p>
+								<p>会后所有参会教师对学院行政人员进行了满意度评分测评。</p>
+							</div>	
+						</div>
+						<div class="news1" id="news8">
+							<div class="news1-con" style="border:none;">
+								<h1>北京师范大学驻校作家严歌苓与北师大师生亲切对谈</h1>
+								<h4>发布时间： 2014-12-13 </h4>
+								<div><img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2014-12/20141213102859517136.jpg" alt=""/></div>
+								<p>2014年12月9日晚7时，由北京师范大学国际写作中心、文学院学生会联合主办的“金声玉振文化论坛之严歌苓专场：写作的空间穿越”主题讲座在北京师范大学教九502举行。北京师范大学国际写作中心执行主任张清华教授特邀为嘉宾主持，国际写作中心副主任梁振华出席本次讲座。此外，师大百名学子也积极参与了此次对谈。</p>
+								<div style="height:326px;">
+									<img class="lazy" width="700" height="326" data-original="../images/news8.png" alt=""/>
+									<span style="margin-right:250px;">驻校作家严歌苓女士</span><span>嘉宾主持张清华教授</span>
+								</div>
+								<h3>立足本国素材，注重文化穿越</h3>
+								<p>在严歌苓看来，穿越有一种泛义的理解，因为它不仅有地域的穿越，还有心理空间的穿越。如果不完成这个穿越，一个民族的文化、文学和语言就难以被其他所有的民族理解。为此，她特别谈到了她的亲身经历，她在芝加哥上学第一天，由于穿着朴素，被怀疑并非是搞文学写作的人，因为在美国，文学创作同反传统的、前卫应该是一脉相承的，作家应拥有着自甘边缘、自我放逐的形象。</p>
+								<p>严歌苓接着谈及了文化差异造成的文化沟通障碍。在种族、同性恋等诸多问题上，她与美国的同学之间的观念有着迥异的看法，伴随着这一系列的思想理念差异，严歌苓感到很苦闷，也明白文化差异足以影响到文艺创作的接受程度，她由衷地感慨：“假如人们不把这样一种道德审美架构起来，谁能够看得懂《白毛女》和欣赏它呢？”</p>
+								<p>对于文字背后的文化，严歌苓指出，她不追求能够把一种文化抑或是审美观翻译成功，因为文字可以翻译，但是文字所代表的文化、道德审美观是难以被翻译的。中国作家之所以很长时间是默默无闻，是因为具有中国特色的生活体验无法被外国人所理解。严歌苓以小说《天浴》中文秀之死巧论中外理解差异。在那个年代，文秀代表了一代女知青的悲剧命运，然而她精心设计文秀之死，却难以被美国人所理解。</p>
+								<p>因此，严歌苓坦言：“语言翻译了还有概念上的翻译，很多东西是非常痛苦的，需要大量的注释讲解。”</p>
+								<h3>关注移民视角，体察移民生活</h3>
+								<p>严歌苓指出，生命移植的排异的过程是最有力量的，所以很值得细品和琢磨。她在移民期间被主流文化所排异，内心十分痛苦。因此写成《女房东》、《海那边》等著名短篇小说。这些小说通过详细刻画边缘小人物敏感到病态的程度，反映了细致而丰富的移民之痛，为读者展示出“迁移”这个漫长而又痛苦的过程。</p>
+								<p>接着，严歌苓以一个形象的比喻总结了这种感受：“我把自己的根从热土上拔起来，这个根却是潮湿的、裸露的，我总觉得这就是我的神经。它比所有的东西都敏感，这种敏感是略略带疼痛的。这种敏感极为夸张，人家一个眼神都能伤害你。”</p>
+								<p>接下来，严歌苓与听众分享了她在非洲居住的经历，指出自己的思维体系又被洗牌重组。非洲的落后的生活条件让她联想起中国的灾荒，落后的婚姻制度给她以极大震慑，基于此，让她在此期间创作出《第九个寡妇》、《一个女人的史诗》这样的佳作。</p>
+								<p>严歌苓提到了一个酋长的女儿，在这个女孩儿在做她的保姆时两次在她面前下跪承认错误，“下跪”这个反现代文明的举动让严歌苓很难接受。诸如此类的经历深深地烙印在严歌苓的心里。她认为，非洲人民的这种抽象意义上的苦难是人类历史所共承的，尤其让她想到曾经的中国人。</p>
+								<p>在非洲的数年时间中，严歌苓明白了地点的变化亦是写作穿越的重点，身处在不同发达程度的国家，能直观地感受到“人”的观念、“文明”的定义一次次重新建立，而这种“破与立”不仅仅引人深思，更能极大地丰富文学创作。</p>
+								<div><img class="lazy" width="700" height="450" data-original="http://wxy.bnu.edu.cn/images/content/2014-12/20141213103727781466.jpg" alt=""/></div>
+								<h3>体验多种文化，实现游放创作</h3>
+								<p>严歌苓自我评价道：“我不断在世界各地走，也就形成在哪里也都不想待长的想法。因为在哪里待长了，我就失去了质疑主流社会的清醒。我很喜欢目前的身份，使得我在任何一个主流社会里都不算一个主流人，因此能尽可能地保持思想的纯正和质疑。”</p>
+								<p>严歌苓认为自己是属于自我游放，自我放逐生活状态之中的作家。她写中国既可以用历经沧桑的成年作家的口吻，又可以用具有他国经验的旅居者的口吻创作，这种多维经验的对比形成了她绚烂繁复却精妙绝伦的创作风格。 </p>
+								<p>在现场的提问环节，严歌苓和师生进行了深入交流，她的回答多次得到了师生的掌声，活动在热烈而融洽的氛围中圆满落幕。</p>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<!-- 新闻动态end -->
+			<!-- 通知公告 -->
+			<div class="notice" id="notice">
+				<div class="bgc">
+					<div class="notice-con" style="height:500px;">
+						<div class="notice-nav">
+							<img src="../images/notice.png" height="48" width="120" alt="" class="title"/>
+							<img src="../images/school.png" height="24" width="452" alt="" class="xiushi"/>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- 通知公告end -->
+		</div>
+    	<!-- 内容end -->
+    	<!-- 底部 -->
+    	<div class="footer">
+			<div class="footer-nav clearfix">
+				<ul>
+					<li><a href="labInt.html">实验室概况</a></li>
+					<li><a href="labInt.html#labInt">实验室简介</a></li>
+					<li><a href="labInt.html#structure">组织架构</a></li>
+					<li><a href="labInt.html#committee">学术委员会</a></li>
+					<li><a href="labInt.html#leader">主要成员</a></li>
+					<li><a href="labInt.html#mission">使命宗旨</a></li>
+					<li><a href="labInt.html#culture">学术渊源</a></li>
+					<li><a href="labInt.html#labView">实验室风貌</a></li>
+				</ul>
+				<ul>
+					<li><a href="news.html">资讯中心</a></li>
+					<li><a href="news.html#hotNews">新闻动态</a></li>
+					<li><a href="news.html#notice">通知公告</a></li>
+				</ul>
+				<ul>
+					<li><a href="sciAch.html">科学研究</a></li>
+					<li><a href="sciAch.html#represent">专著论文</a></li>
+					<li><a href="sciAch.html#topic">项目课题</a></li>
+					<li><a href="sciAch.html#activity">学术活动</a></li>
+				</ul>
+				<ul>
+					<li><a href="cooperCommu.html">合作交流</a></li>
+					<li><a href="cooperCommu.html#international">国际交流</a></li>
+					<li><a href="cooperCommu.html#domestic">国内交流</a></li>
+					<li><a href="cooperCommu.html#goverCooper">政府合作</a></li>
+				</ul>
+				<ul>
+					<li><a href="product.html">成果转化</a></li>
+					<li><a href="product.html">成果转化</a></li>
+				</ul>
+				<ul>
+					<li><a href="talent.html">招贤纳士</a></li>
+					<li><a href="talent.html#talentInt">科研人员</a></li>
+					<li><a href="talent.html#talentImpor">技术人员</a></li>
+					<li><a href="talent.html#zhaopin">实习生</a></li>
+				</ul>
+				<ul>
+					<li><a href="contactUs.html">联系我们</a></li>
+					<li><a href="contactUs.html#telephone">联系方式</a></li>
+				</ul>
+			</div>
+			<div class="bsd">
+				<p>汉字交叉实验室Copyright@ 2017 ALL Right Reserved &nbsp;网站备案/许可证号：京ICP备000000001号-1</p>
+			</div>
+			<img src="../images/bsd.png" height="78" width="256" alt=""/>
+		</div>
+    	<!-- 底部end -->
+    </body>
+	<script src="../js/backtop.js"></script>
+</html>

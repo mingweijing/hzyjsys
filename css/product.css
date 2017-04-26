@@ -1,0 +1,64 @@
+/*
+* @Author: JMW
+* @Date:   2017-04-17 16:52:57
+* @Last Modified by:   JMW
+* @Last Modified time: 2017-04-18 14:55:20
+*/
+/*
+* @Author: JMW
+* @Date:   2017-03-27 15:28:24
+* @Last Modified by:   JMW
+* @Last Modified time: 2017-04-17 16:32:26
+*/
+.left-nav.b li{
+	padding-left:40px;
+}
+.product{
+	width:expression(document.body.clientWidth <= 1440? "1440px": "auto");
+	min-width:1440px;
+	background:#fff;
+}
+.bgc{
+	width: 1200px;
+	margin:0 auto;
+	position: relative;
+}
+.common{
+	width: 872px;
+	margin:100px auto;
+}
+.common span{
+	font-size: 24px;
+	margin-left: 24px;
+}
+.common img{
+	margin-top: 50px;
+}
+.common p{
+	font-size: 16px;
+	line-height: 26px;
+	margin-top:30px;
+	text-indent: 2em;
+}
+.product-con{
+	width: 920px;
+	padding-top: 50px;
+	margin:0 auto;
+	padding-left: 280px;
+}
+.product .product-con div.product-nav{
+	width: 920px;
+	height: 48px;
+	position: relative;
+	margin:0 auto;
+}
+.product .product-nav img.title{
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+.product .product-nav img.xiushi{
+	position: absolute;
+	right: 200px;
+	top: 10px;
+}

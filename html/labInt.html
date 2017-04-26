@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>汉字研究与现代应用实验室</title>
+		<meta charset="utf-8"/>
+	    <meta name="format-detection" content="telephone=no"/>
+	    <meta name="renderer" content="webkit"/>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	    <meta name="viewport" content="width=1440"/>
+	    <meta name="keywords" content="汉字研究,交叉学科,实验室,汉字研究与现代应用交叉学科实验室"/>
+	    <meta name="description" content="汉字研究与现代应用交叉学科实验室是北京师范大学学科交叉重点建设项目，该实验室依托于具有深厚历史渊源、坚实学术基础的北师范大学文学院和教学、研究实力雄厚的北京师范大学信息科学与技术学院，是集学术科研与社会服务于一体、传统人文学科与现代信息科学相交叉的高层次科研和服务机构。"/>
+	    <link rel="stylesheet" href="../css/base.css"/>
+	    <link rel="stylesheet" href="../css/common.css"/>
+	    <link rel="stylesheet" href="../css/labInt.css"/>
+	    <script src="../js/jquery.min.js"></script>
+	    <script src="../js/common.js"></script>
+	    <script src="../js/common2.js"></script>
+	    <script src="../js/jquery.lazyload.min.js"></script>
+		<script>
+			$(function(){
+			    $("img.lazy").lazyload({
+			    	threshold : 200,
+			    	placeholder:"../images/loading.gif",
+			    	effect : "fadeIn",
+			    	container:$("#leaderUl")
+			    });
+			    $("#pwdSpan").hide();
+			    var explorer =navigator.userAgent;
+			    if (explorer.indexOf("MSIE 8.0") >= 0||explorer.indexOf("MSIE 7.0") >= 0){
+			    	$(".culture-con").find("iframe").attr("src","../timeline/index2.html");
+			    }
+			});
+		</script>
+	    <!--[if lte IE 9]>
+	        <script src="../js/ie9.js"></script>
+	    <![endif]-->
+	    <!--[if lte IE 8]>
+            <style>
+                #header .search input{
+                    line-height: 23px;
+                }
+                .mask0{
+                    display:block;
+                }
+            </style>
+        <![endif]-->
+        <!--[if IE 7]>
+        	<style>
+				.structure .stru-con ul li.xiangmu{
+					margin-top: 65px;
+				}
+				.structure .stru-con ul li.xiangmu div{
+					margin-top: -24px;
+				}
+        	</style>
+        <![endif]-->
+    </head>
+    <body>
+    	<!-- 头部 -->
+    	<div id="header">
+    		<div class="wrapper clearfix">
+    			<a class="logo" title="点击可切换logo">
+	                <img src="../images/logo2.png" alt=""/>
+	            </a>
+	            <img src="../images/logo.png" height="64" width="431" alt="" style="margin-top:20px;float:left"/>
+	            <div class="search">
+	            	<input id="pwd" type="text" placeholder="建设中..."/>
+                    <input id="pwdSpan" type="text" placeholder="建设中...">
+	            	<img src="../images/search.png" height="25" width="25" alt=""/>
+	            </div>
+    		</div>
+    	</div>
+    	<!-- 头部end -->
+    	<!-- 导航条 -->
+    	<div id="nav-bar">
+    		<ul class="nav">
+	            <li><a href="../index.html" class="a1">首页</a></li>
+	            <li  style="background-color: #f9be00;"><a href="labInt.html" class="a1" style="color:#3e3c3c;">实验室概况</a>
+	            	<dl>
+	                    <dd><a href="labInt.html#labInt" class="a2">实验室简介</a></dd>
+	                    <dd><a href="labInt.html#structure" class="a2">组织架构</a></dd>
+	                    <dd><a href="labInt.html#committee" class="a2">学术委员会</a></dd>
+	                    <dd><a href="labInt.html#leader" class="a2">主要成员</a></dd>
+	                    <dd><a href="labInt.html#mission" class="a2">使命宗旨</a></dd>
+	                    <dd><a href="labInt.html#culture" class="a2">学术渊源</a></dd>
+	                    <dd><a href="labInt.html#labView" class="a2">实验室风貌</a></dd>
+	                </dl>
+	            </li>
+	            <li><a href="news.html" class="a1">资讯中心</a>
+	            	<dl>
+	                    <dd><a href="news.html#hotNews" class="a2">新闻动态</a></dd>
+	                    <dd><a href="news.html#notice" class="a2">通知公告</a></dd>
+	                </dl>
+	            </li>
+	            <li><a href="sciAch.html" class="a1">科学研究</a>
+	            	<dl>
+	                    <dd><a href="sciAch.html#represent" class="a2">专著论文</a></dd>
+	                    <dd><a href="sciAch.html#topic" class="a2">项目课题</a></dd>
+	                    <dd><a href="sciAch.html#activity" class="a2">学术活动</a></dd>
+	                </dl>
+	            </li>
+	            <li><a href="cooperCommu.html" class="a1">合作交流</a>
+	            	<dl>
+	                    <dd><a href="cooperCommu.html#international" class="a2">国际交流</a></dd> 
+	                    <dd><a href="cooperCommu.html#domestic" class="a2">国内交流</a></dd> 
+	                    <dd><a href="cooperCommu.html#goverCooper" class="a2">政府合作</a></dd>                
+	                </dl>
+	            </li>
+	            <li><a href="product.html" class="a1">成果转化</a>
+	            </li>
+	            <li><a href="talent.html" class="a1">招贤纳士</a>
+	            	<dl>
+	                    <dd><a href="talent.html#talentInt" class="a2">科研人员</a></dd>  
+	                    <dd><a href="talent.html#talentImpor" class="a2">技术人员</a></dd> 
+	                    <dd><a href="talent.html#zhaopin" class="a2">实习生</a></dd>  
+	                </dl>
+	            </li>
+	            <li><a href="contactUs.html" class="a1">联系我们</a>
+	            	<dl>
+	                    <dd><a href="contactUs.html#telephone" class="a2">联系方式</a></dd>               
+	                </dl>
+	            </li>    
+	        </ul>
+	        <div class="mask0"></div>
+    	</div>	
+    	<!-- 导航条end -->
+    	<!-- 首图 -->
+    	<div class="shoutu-nav"><img src="../images/labInt.jpg" height="400" width="1903" alt=""/></div>
+		<!-- 首图end -->
+    	<!-- 内容 -->
+    	<div class="content">
+			<!-- 实验室简介 -->
+			<div class="labInt" id="labInt">
+				<div class="bgc">
+					<!-- 左侧导航 -->
+					<ul class="left-nav">
+						<li><a href="labInt.html#labInt">实验室简介</a></li>
+						<li><a href="labInt.html#structure">组织架构</a></li>
+						<li><a href="labInt.html#committee">学术委员会</a></li>
+						<li><a href="labInt.html#leader">主要成员</a></li>
+						<li><a href="labInt.html#mission">使命宗旨</a></li>
+						<li><a href="labInt.html#culture">学术渊源</a></li>
+						<li class="last"><a href="labInt.html#labView">实验室风貌</a></li>
+					</ul>
+					<!-- 左侧导航end -->
+					<div class="labInt-con">
+						<div class="lab-nav">
+							<img src="../images/labInt.png" height="48" width="157" alt="" class="title"/>
+							<img src="../images/school.png" height="24" width="452" alt="" class="xiushi"/>
+						</div>
+						<p> 汉字研究与现代应用交叉学科实验室是北京师范大学学科交叉重点建设项目，该实验室依托于具有深厚历史渊源、坚实学术基础的北师范大学文学院和教学、研究实力雄厚的北京师范大学信息科学与技术学院，是集学术科研与社会服务于一体、传统人文学科与现代信息科学相交叉的高层次科研和服务机构。</p>
+						<div class="office"><img src="../images/office.png" alt=""/></div>
+					</div>
+				</div>	
+			</div>
+			<!-- 实验室简介end -->
+			<!-- 组织架构 -->
+			<div class="structure" id="structure">
+				<div class="bgc">
+					<div class="structure-con">
+						<div class="stru-nav">
+							<img src="../images/structure0.png" height="48" width="120" alt="" class="title"/>
+							<img src="../images/school1.png" height="24" width="452" alt="" class="xiushi"/>
+						</div>
+						<div class="stru-con">
+							<div class="stru-bg"></div>
+							<ul>
+								<li>学术委员会
+									<a href="javascript:;" style="margin-left:280px;color:#fff;">
+										学术委员会
+									</a>
+								</li>
+								<li style="margin-top:45px;">指导委员会
+									<a href="javascript:;" style="margin-left:272px;color:#fff;">规划小组领导</a>
+								</li>
+								<li style="margin:58px 0 0 432px;color:#fff;">
+									主任
+								</li>
+								<li style="margin-top:42px;">
+									<a href="javascript:;" style="margin-left:218px;color:#fff;">
+										副主任
+									</a>
+									<a href="javascript:;" style="margin-left:324px;color:#fff;">
+										副主任
+									</a>
+								</li>
+								<li style="margin-top:30px;">核心研究团队</li>
+								<li class="yanjiu clearfix">
+									<div href="javascript:;" style="margin-left:194px;">研究部一</div>
+									<div href="javascript:;" style="margin-left:98px;">研究部二</div>
+									<div href="javascript:;" style="margin-left:100px;">研究部三</div>
+									<div href="javascript:;" style="margin-left:108px;">研究部四</div>
+									<div href="javascript:;" style="margin-left:98px;">研究部五</div>
+								</li>
+								<li class="xiangmu clearfix">项目执行团队
+									<div href="javascript:;" style="margin-right:32px;color:#fff;">行政财务部</div>
+									<div href="javascript:;" style="margin-right:36px;color:#fff;">社会服务部</div>
+									<div href="javascript:;" style="margin-right:38px;color:#fff;">成果转化部</div>
+									<div href="javascript:;" style="margin-right:40px;color:#fff;">项目研究部</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 组织架构end -->
+			<!-- 学术委员会 -->
+			<div class="committee" id="committee">
+				<div class="bgc">
+					<div class="committee-con">
+						<div class="commi-nav">
+							<img src="../images/committee.png" height="48" width="157" alt="" class="title"/>
+							<img src="../images/school.png" height="24" width="452" alt="" class="xiushi"/>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<!-- 学术委员会end -->
+			<!-- 主要成员 -->
+			<div class="leader" id="leader">
+				<div class="bgc">
+					<div class="leader-con">
+						<div class="leader-nav">
+							<img src="../images/leader.png" height="48" width="120" alt="" class="title"/>
+							<img src="../images/school1.png" height="24" width="452" alt="" class="xiushi"/>
+						</div>
+						<ul id="leaderUl">
+							<li class="clearfix">
+								<img class="lazy" data-original="../images/wangning.png" height="165" width="165" alt=""/>
+								<div>
+									<a href="leader.html#wangning" class="name" target="_blank">王&nbsp;&nbsp;&nbsp;宁</a>
+									<p>王宁，女，浙江海宁人,1936年7月出生。1958年毕业于北京师范大学中文系本科，分配至刚刚建校的青海师范学院从事语言学教学3年后，于1961年考入北京师范大学攻读文字训诂学研究生，师从我国著名文字训诂学家陆宗达教授，1964年毕业后仍回青海师范学院任教......<a href="leader.html#wangning" target="_blank">[阅读全文...]</a></p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img class="lazy" data-original="../images/wanglijun.png" height="165" width="165" alt=""/>
+								<div>
+									<a href="leader.html#wanglijun" class="name" target="_blank">王立军</a>
+									<p>王立军，男，1965年出生。1985年本科毕业于河南大学中文系，毕业后在河南师范大学中文系任教，1990年获四川师范大学汉语史专业硕士学位，2000年获北京师范大学汉语言文字学专业博士学位，2001年进入北京师范大学中国语言文学博士后流动站工作，2003年出站后留北京师范大学文学院任教......<a href="leader.html#wanglijun" target="_blank">[阅读全文...]</a></p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img class="lazy" data-original="../images/songjihua.png" height="165" width="165" alt=""/>
+								<div>
+									<a href="leader.html#songjihua" class="name" target="_blank">宋继华</a>
+									<p>宋继华，男，教授、博导。北京师范大学信息科学与技术学院教授，北京师范大学语言与文字资源研究中心主任。中国中文信息学会理事；中文教学现代化学会（香港）副会长、常务理事；中国计算机学会高级会员......<a href="leader.html#songjihua" target="_blank">[阅读全文...]</a></p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img class="lazy" data-original="../images/qiyuantao.png" height="165" width="165" alt=""/>
+								<div>
+									<a href="leader.html#qiyuantao" class="name" target="_blank">齐元涛</a>
+									<p>齐元涛，1970年生，山东淄博人，北京师范大学文学院教授，教育部民俗典籍文字研究中心研究员，汉语言文字学专业博士生导师，教育部新世纪优秀人才。1992-1998年师从王宁教授，获博士学位，2006-2007年美国哈佛大学访问学者......<a href="leader.html#qiyuantao" target="_blank">[阅读全文...]</a></p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img class="lazy" data-original="../images/bushixia.png" height="165" width="165" alt=""/>
+								<div>
+									<a href="leader.html#bushixia" class="name" target="_blank">卜师霞</a>
+									<p>卜师霞，女，1974年出生，吉林梨树人。2004年至2007年就读于北京师范大学，获得博士学位，师从王宁教授，毕业后留校任教。主要研究方向为训诂学、词汇语义学。现为北京师范大学文学院副教授，硕士生导师......<a href="leader.html#bushixia" target="_blank">[阅读全文...]</a></p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img class="lazy" data-original="../images/linglijun.png" height="165" width="165" alt=""/>
+								<div>
+									<a href="leader.html#linglijun" class="name" target="_blank">凌丽君</a>
+									<p>凌丽君，女，1978年出生，江苏常熟人。1997年至2007年就读于北京师范大学，先后获得学士、硕士、博士学位，师从易敏教授、王宁教授，毕业后留校任教。主要研究方向为训诂学、文字学。现为北京师范大学文学院副教授，硕士生导师......<a href="leader.html#linglijun" target="_blank">[阅读全文...]</a></p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img class="lazy" data-original="../images/hujiajia.png" height="165" width="165" alt=""/>
+								<div>
+									<a href="leader.html#hujiajia" class="name" target="_blank">胡佳佳</a>
+									<p>2012年7月任北京师范大学文学院讲师。研究方向：中文信息处理，计算语言学，语言网络分析。2010年6月至2012年6月获得北京航空航天大学计算机学院博士后。合作导师：赵沁平教授。研究报告：汉字构形系统的网络分析......<a href="leader.html#hujiajia" target="_blank">[阅读全文...]</a></p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img class="lazy" data-original="../images/mengzhuo.png" height="165" width="165" alt=""/>
+								<div>
+									<a href="leader.html#mengzhuo" class="name" target="_blank">孟&nbsp;&nbsp;&nbsp;琢</a>
+									<p>孟 琢，男，北京市人。北京师范大学文学院讲师，文学博士、硕士导师，从事训诂学、《说文》学、章太炎黄侃学术研究。自本科以来，就读于北京师范大学文学院，师从王宁先生，博士论文题为《<说文解字>经学渊源考论》，获2012年北京市优秀博士论文奖，2013年全国优秀博士论文提名奖......<a href="leader.html#mengzhuo" target="_blank">[阅读全文...]</a></p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img class="lazy" data-original="../images/keyonghong.png" height="165" width="165" alt=""/>
+								<div>
+									<a href="leader.html#keyonghong" class="name" target="_blank">柯永红</a>
+									<p>柯永红，北京师范大学文学院助理研究员，文学博士，研究领域为汉语言文字学、中文信息处理。......<a href="leader.html#keyonghong" target="_blank">[阅读全文...]</a></p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img class="lazy" data-original="../images/pengweiming.png" height="165" width="165" alt=""/>
+								<div>
+									<a href="leader.html#pengweiming" class="name" target="_blank">彭炜明</a>
+									<p>彭炜明，男，1985年2月生，北京师范大学信息科学与技术学院讲师，主要研究方向为中文信息处理和句本位语法。先后就读于天津大学、北京师范大学，获计算机应用技术专业学士、硕士学位，汉语言文字学专业博士学位，拥有丰富的文理学科交叉研究经历......<a href="leader.html#pengweiming" target="_blank">[阅读全文...]</a></p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img class="lazy" data-original="../images/dongjingchen.png" height="165" width="165" alt=""/>
+								<div class="last">
+									<a href="leader.html#dongjingchen" class="name" target="_blank">董婧宸</a>
+									<p>董婧宸，女，1988年6月生。2006年考入北京师范大学文学院，2010年获文学学士学位。2010年起，师从王宁先生，学习以《说文》学为中心的传统语言文字学，先后于2013年获文学硕士学位，2016年获文学博士学位......<a href="leader.html#dongjingchen" target="_blank">[阅读全文...]</a></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 主要成员end -->
+			<!-- 使命宗旨 -->
+			<div class="mission" id="mission">
+				<div class="bgc">
+					<div class="mission-con">
+						<div class="mission-nav">
+							<img src="../images/mission.png" height="48" width="120" alt="" class="title"/>
+							<img src="../images/school.png" height="24" width="452" alt="" class="xiushi"/>
+						</div>
+						<div class="mis-con">
+							<p style="line-height:28px;text-indent:2em;">汉字研究与现代应用交叉学科实验室立足于北京师范大学学科交叉重点建设项目，在推进项目建设的基础上力争实现建成国家重点实验室的目标。我们的工作使命包括：</p>
+							<p><span></span>面向基础教育与国际汉语教育的汉字教学软件应用与服务</p>
+							<p><span></span>推进面向古籍印刷的字形标准研制，为政府提供繁体汉字字形标准</p>
+							<p><span></span>推进国际化的古汉字编码标准研制，为国际编码组织提供编码方案</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 使命宗旨end -->
+			<!-- 学术渊源 -->
+			<div class="culture" id="culture">
+				<div class="bgc">
+					<div class="culture-con">
+						<div class="culture-nav">
+							<img src="../images/culture.png" height="48" width="120" alt="" class="title"/>
+							<img src="../images/school1.png" height="24" width="452" alt="" class="xiushi"/>
+						</div>	
+						<iframe src="../timeline/index.html" frameborder="0" ></iframe>
+					</div>
+				</div>
+			</div>
+			<!-- 学术渊源end -->
+			<!-- 实验室风貌 -->
+			<div class="labView" id="labView">
+				<div class="bgc">
+					<div class="labView-con">
+						<div class="labView-nav">
+							<img src="../images/labView.png" height="48" width="157" alt="" class="title"/>
+							<img src="../images/school.png" height="24" width="452" alt="" class="xiushi"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 实验室风貌end -->
+		</div>
+    	<!-- 内容end -->
+    	<!-- 底部 -->
+    	<div class="footer">
+			<div class="footer-nav clearfix">
+				<ul>
+					<li><a href="labInt.html">实验室概况</a></li>
+					<li><a href="labInt.html#labInt">实验室简介</a></li>
+					<li><a href="labInt.html#structure">组织架构</a></li>
+					<li><a href="labInt.html#committee">学术委员会</a></li>
+					<li><a href="labInt.html#leader">主要成员</a></li>
+					<li><a href="labInt.html#mission">使命宗旨</a></li>
+					<li><a href="labInt.html#culture">学术渊源</a></li>
+					<li><a href="labInt.html#labView">实验室风貌</a></li>
+				</ul>
+				<ul>
+					<li><a href="news.html">资讯中心</a></li>
+					<li><a href="news.html#hotNews">新闻动态</a></li>
+					<li><a href="news.html#notice">通知公告</a></li>
+				</ul>
+				<ul>
+					<li><a href="sciAch.html">科学研究</a></li>
+					<li><a href="sciAch.html#represent">专著论文</a></li>
+					<li><a href="sciAch.html#topic">项目课题</a></li>
+					<li><a href="sciAch.html#activity">学术活动</a></li>
+				</ul>
+				<ul>
+					<li><a href="cooperCommu.html">合作交流</a></li>
+					<li><a href="cooperCommu.html#international">国际交流</a></li>
+					<li><a href="cooperCommu.html#domestic">国内交流</a></li>
+					<li><a href="cooperCommu.html#goverCooper">政府合作</a></li>
+				</ul>
+				<ul>
+					<li><a href="product.html">成果转化</a></li>
+					<li><a href="product.html">成果转化</a></li>
+				</ul>
+				<ul>
+					<li><a href="talent.html">招贤纳士</a></li>
+					<li><a href="talent.html#talentInt">科研人员</a></li>
+					<li><a href="talent.html#talentImpor">技术人员</a></li>
+					<li><a href="talent.html#zhaopin">实习生</a></li>
+				</ul>
+				<ul>
+					<li><a href="contactUs.html">联系我们</a></li>
+					<li><a href="contactUs.html#telephone">联系方式</a></li>
+				</ul>
+			</div>
+			<div class="bsd">
+				<p>汉字交叉实验室Copyright@ 2017 ALL Right Reserved &nbsp;网站备案/许可证号：京ICP备000000001号-1</p>
+			</div>
+			<img src="../images/bsd.png" height="78" width="256" alt=""/>
+		</div>
+    	<!-- 底部end -->
+    </body>
+    <script src="../js/backtop.js"></script>
+</html>
